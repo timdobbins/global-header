@@ -1,3 +1,3 @@
 # global-header
 
-Teast at https://global-header.netlify.app/
+View at https://global-header.netlify.app/
