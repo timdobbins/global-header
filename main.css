@@ -1,0 +1,142 @@
+* {
+    position: relative ;
+    margin: 0;
+  }
+  
+  body {
+    background: #efefef;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #414141;
+  }
+  
+  button {
+    margin: 8px;
+    background-color: #fff;
+    border: rgba(0,0,0,.3) 1px solid;
+    border-radius: 4px;
+  }
+  
+  .input-container {
+    display: inline-block;
+    width: 400px;
+    transition: width .2s ease;
+  }
+  
+  input {
+    padding: 4px 16px;
+    height: 40px;
+    box-sizing: border-box;
+    border: #767676 1px solid;
+    border-radius: 4px;
+  }
+  
+  .buttons-container {
+    position: absolute;
+    right: 8px;
+    top:8px;
+    z-index: 1000;
+  }
+  
+
+  .buttons-container button {
+    margin: 0;
+    font-size: 18px;
+    height: 24px;
+    width: 24px;
+    padding: 0;
+    border: none;
+  }
+  
+  input {
+    width: 100%; 
+  }
+  
+  #menu {
+    position: absolute;
+    box-sizing: border-box;
+    width: 400px;
+    /* padding: 24px 0; */
+    box-shadow: rgba(0,0,0,.2) 4px 4px 4px;
+    background-color: #fff;
+    display: none;
+    margin-top: 2px;  
+  }
+  
+  ul, li {
+    list-style: none;
+    margin: 0 24px 0 0;
+    padding: 0;
+  }
+  
+  li {
+    padding: 4px 0;
+  }
+  
+  #advanced-search {
+    /* margin: 8px 0; */
+    background-color: #fff;
+    border: rgba(0,0,0,.5) 2px solid;
+    border-radius: 6px;
+    padding: 8px 16px;
+    display: inline-block;
+  }
+  
+.menu-item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+  
+  .choose-item {
+      margin-right: 24px;
+  }
+
+  header {
+      height:60px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 32px;
+      border-bottom: 1px solid #d9d9d9;
+  }
+
+  #clear {
+      display: none;
+  }
+.right-container {
+    display:flex;
+    align-items: center;
+}
+
+.button-group {
+    margin-left: 24px;
+}
+
+  .button-group button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    margin: 8px;
+  } 
+
+  .link-container {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 16px 24px;
+  }
+
+  .btn-container {
+      padding: 16px;
+  }
+
+  .left-container a {
+    text-decoration: none;
+    color: #414141;
+  }
+
+  .enlarge {
+      width: 505px;
+  }
