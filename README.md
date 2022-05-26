@@ -1,2 +1,3 @@
 # global-header
-(Test at global-header.netlify.app)[https://global-header.netlify.app/]
+
+Teast at https://global-header.netlify.app/
