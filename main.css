@@ -2,7 +2,13 @@
     position: relative ;
     margin: 0;
   }
-  
+
+  :focus {
+    box-shadow: 0 0 0 3px #009de6;
+    border-radius: 4px;
+    outline: none;
+  }
+
   body {
     background: #efefef;
     font-family: Arial, Helvetica, sans-serif;
